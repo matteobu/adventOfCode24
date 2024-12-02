@@ -38,7 +38,7 @@ for (let i = 0; i < ascendCol1.length; i++) {
 }
 
 const countMap = multiCol.reduce((acc, num) => {
-  acc[num] = (acc[num] || 0) + 1; // Increment count for each number
+  acc[num] = (acc[num] || 0) + 1;
   return acc;
 }, {});
 
