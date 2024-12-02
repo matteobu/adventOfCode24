@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-// DAY 01
+// DAY 01 part 01
 const col1 = [];
 const col2 = [];
 const diffCol = [];
@@ -26,10 +26,9 @@ const totalSum = diffCol.reduce(
 );
 console.log(totalSum); // 1579939
 
-// DAY 02
+// DAY 01 part 02
 const multiCol = [];
 
-// col1
 for (let i = 0; i < ascendCol1.length; i++) {
   ascendCol2.forEach((aC2) => {
     if (aC2 === ascendCol1[i]) {
